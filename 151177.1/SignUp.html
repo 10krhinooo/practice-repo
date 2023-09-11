@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Register</title>
+        <meta name="description" content="Mavuno Church started in 2005 as one assembly meeting in the south-side of Nairobi, Kenya. Over the past years, the community of the fearless has grown ...">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stylesheet/style.css">
+    </head>
+    <body>
+        
+        <header>
+          <h2 class="logo">myf</h2>
+          <nav class="navigation">
+            <a href="index.html">HOME </a>
+            <a href="viewBlog.html">BLOG</a>
+            <a href="SignUp.html">REGISTER</a>
+            <a href="contact.html">CONTACT</a>
+             <a href="photogallery.html">GALLERY</a>
+              <a href="statementsoffaith.html">FAITH</a>
+            <button class="btnlogin-popup">login</button>
+          </nav>
+        </header>
+        <div class="wrapper">
+          <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+          <div class="form-box login">
+            <h2>login</h2>
+            <form action="php/call.php" method="POST">
+              <div class="input-box">
+                <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                <input type="email" name="userEmail" required>
+                <label>Email</label>
+              </div>
+              <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+    
+                <input type="password" name="userPassword" required>
+                <label>Password</label>
+        </div>
+              <div class="remember-forgot">
+                <label>
+                    <input type="checkbox" >Remember me</label>
+                <a href="#">Forgot password?</a>
+              </div>
+              <button type="submit" class="btn">login</button>
+              <div class="login-register">
+                <p>
+                  Don't have an account?<a href="#" class="register-link"
+                    >Register</a
+                  >
+                </p>
+              </div>
+            </form>
+          </div>
+          <div class="form-box registration">
+            <h2>Registration</h2>
+            <form action="php/call.php" method="post">
+              <div class="input-box">
+                <span class="icon"><ion-icon name="person-circle"></ion-icon></span>
+                <input type="text" name="userName" required />
+                <label>Username</label>
+              </div>
+              <div class="input-box">
+                <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                <input type="email"name="userEmail" required />
+                <label>Email</label>
+              </div>
+              <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+    
+                <input type="password" name="userPassword" required />
+                <label>Password</label>
+              </div>
+              <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+    
+                <input type="password" name="confPassword" required />
+                <label>Confirm Password</label>
+              </div>
+              
+              <div class="remember-forgot">
+                <label><input type="checkbox" /> I agree to terms and conditions</label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+              <div class="login-register">
+                <p>
+                  Already have an account?<a href="#" class="login-link"
+                    >Login</a>
+                  
+                </p>
+              </div>
+              
+                
+              
+            </form>
+        </div>
+          
+        
+        
+        <script
+        type="module"
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+      ></script>
+      <script src="javascript\script.js"></script>
+      </body>
+</html>
